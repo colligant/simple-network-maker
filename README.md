@@ -1,5 +1,5 @@
 # Simple language to generate fully connected networks
-Usage:
+
 Define a fully-connected layer like this:
 ```
 a=[n_nodes]
