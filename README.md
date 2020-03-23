@@ -17,7 +17,7 @@ output=[2]
 print
 ```
 Issuing the print command writes the generated dot code to a file, named graph.dot.out.
-To view the graph, issue the command (assuming dot is installed)
+To view the graph, type this into the terminal (assuming dot is installed)
 ```
 dot -Tpdf graph.dot.out -o out.pdf
 ```
