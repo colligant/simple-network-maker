@@ -1,4 +1,6 @@
 # Simple language to generate fully connected networks
+Use the makefile to compile the code. Development was done on a mac.
+use the software as follows: ./graph.out
 
 Define a fully-connected layer like this:
 ```
@@ -12,4 +14,10 @@ input=[28]
 hidden1=[10]
 hidden2=[10]
 output=[2]
+print
+```
+Issuing the print command writes the generated dot code to a file, named graph.dot.out.
+To view the graph, issue the command (assuming dot is installed)
+```
+dot -Tpdf graph.dot.out -o out.pdf
 ```
